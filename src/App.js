@@ -1,8 +1,8 @@
-import React from 'react';
+import React, { Component } from 'react';
 import List from './List.js';
 import './App.css';
 
-class App extends Comment {
+class App extends Component {
   static defaultProps = {
     store: {
       lists: [],
