@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List componenet Renders the UI with no changes 1`] = `
+<section
+  className="List"
+>
+  <header
+    className="List-header"
+  >
+    Test header
+  </header>
+  <div
+    className="List-cards"
+  >
+    <button
+      type="button"
+    >
+      + Add Random Card
+    </button>
+  </div>
+</section>
+`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card componenet Renders the UI with no changes 1`] = `
+<div
+  className="Card"
+>
+  <button
+    type="button"
+  >
+    Delete
+  </button>
+  <h3>
+    Test
+  </h3>
+  <p>
+    Content Sample Paragraph
+  </p>
+</div>
+`;
+
+exports[`Renders the UI with no changes 1`] = `
+<div
+  className="Card"
+>
+  <button
+    type="button"
+  >
+    Delete
+  </button>
+  <h3>
+    Test
+  </h3>
+  <p>
+    Content Sample Paragraph
+  </p>
+</div>
+`;
