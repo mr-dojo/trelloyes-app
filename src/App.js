@@ -73,19 +73,16 @@ export default class App extends Component {
     return(
       <main className='App'>
         <header className='App-header'>
-          <h1>Trelloys!</h1>
-          <div className='App-list'>
-            {this.state.lists.map(list => (
-              <List 
-                key={list.id}
-                id={list.id}
-                header={list.header}
-                cards={list.cardIds.map(id => store.allCards[id])}
-                onDeleteCard={this.handleDeleteCard}
-                onCreateRandom={this.handleCreateRandomCard}
-              />
-            ))}
-          </div>
+          {store.lists.map(list => (
+            <List 
+              key={list.id}
+              id={list.id}
+              header={list.header}
+              cards={list.cardIds.map(id => store.allCards[id])}
+              onDeleteCard={this.handleDeleteCard}
+              onCreateRandom={this.handleCreateRandomCard}
+            />
+          ))}
         </header>
       </main>
     );

@@ -6,7 +6,7 @@ export default function List(props) {
   return (
     <section className='List'>
       <header className='List-header'>
-        {this.props.header}
+        {props.header}
       </header>
       <div className='List-cards'>
         {props.cards.map((card) => 
